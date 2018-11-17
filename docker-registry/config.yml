@@ -1,0 +1,31 @@
+version: 0.1
+log:
+  level: debug
+  formatter: text
+  fields:
+    service: registry
+    environment: staging
+loglevel: debug
+storage:
+  filesystem:
+    rootdirectory: /var/lib/registry
+  cache:
+    layerinfo: inmemory
+  delete:
+    enabled: true
+  maintenance:
+    uploadpurging:
+      enabled: true
+      age: 168h
+      interval: 24h
+      dryrun: false
+    readonly:
+      enabled: false
+auth:
+  token:
+    realm: https://rauth.stouffcapital.com/auth
+    service: container_registry
+    issuer: gitlab-issuer
+    rootcertbundle: /ssl/tls.crt
+http:
+  addr: :5000

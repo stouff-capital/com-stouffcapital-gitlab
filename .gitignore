@@ -1,0 +1,4 @@
+docker-registry/auth_config.yml
+gitlab/gitlab-cm-oauth.yaml
+gitlab/gitlal-secret.yaml
+gitlab/gitlab-ci-runner/gitlab-ci-runner-secret.yaml
