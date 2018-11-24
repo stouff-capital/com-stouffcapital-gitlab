@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - rauth.stouffcapital.com
-    secretName: rauth-tls-certificate
+    - registry-auth.stouffcapital.tech
+    secretName: registry-auth-tls-certificate
   rules:
-  - host: rauth.stouffcapital.com
+  - host: registry-auth.stouffcapital.tech
     http:
       paths:
       - backend:

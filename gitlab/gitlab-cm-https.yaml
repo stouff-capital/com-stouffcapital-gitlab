@@ -8,5 +8,5 @@ metadata:
 data:
   GITLAB_PORT: "443"
   GITLAB_HTTPS: "true"
-  GITLAB_HOST: "gitlab.stouffcapital.com"
-  GITLAB_SSH_HOST: "91.121.135.58"
+  GITLAB_HOST: "gitlab.stouffcapital.tech"
+  GITLAB_SSH_HOST: "46.4.58.111"

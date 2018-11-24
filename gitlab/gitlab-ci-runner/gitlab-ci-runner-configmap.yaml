@@ -8,7 +8,7 @@ metadata:
 data:
   REGISTER_NON_INTERACTIVE: "true"
   REGISTER_LOCKED: "false"
-  CI_SERVER_URL: "https://gitlab.stouffcapital.com/ci"
+  CI_SERVER_URL: "https://gitlab.stouffcapital.tech/ci"
   METRICS_SERVER: "0.0.0.0:9100"
   RUNNER_REQUEST_CONCURRENCY: "4"
   RUNNER_EXECUTOR: "kubernetes"

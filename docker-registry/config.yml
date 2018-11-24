@@ -23,7 +23,7 @@ storage:
       enabled: false
 auth:
   token:
-    realm: https://rauth.stouffcapital.com/auth
+    realm: https://registry-auth.stouffcapital.tech/auth
     service: container_registry
     issuer: gitlab-issuer
     rootcertbundle: /ssl/tls.crt

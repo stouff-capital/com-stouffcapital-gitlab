@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - registry.stouffcapital.com
+    - registry.stouffcapital.tech
     secretName: docker-registry-tls-certificate
   rules:
-  - host: registry.stouffcapital.com
+  - host: registry.stouffcapital.tech
     http:
       paths:
       - backend:

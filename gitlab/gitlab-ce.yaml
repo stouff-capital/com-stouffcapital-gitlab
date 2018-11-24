@@ -36,7 +36,7 @@ spec:
         tier: ce
     spec:
       containers:
-      - image: sameersbn/gitlab:11.4.5
+      - image: quay.io/sameersbn/gitlab:11.4.7
         name: gitlab
         envFrom:
           - configMapRef:
@@ -75,4 +75,4 @@ spec:
           claimName: gitlab-ce-pv-claim
       - name: tls-registry-cert-key
         secret:
-          secretName: rauth-tls-certificate
+          secretName: registry-auth-tls-certificate

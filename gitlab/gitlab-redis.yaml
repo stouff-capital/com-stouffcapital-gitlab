@@ -32,7 +32,7 @@ spec:
         tier: redis
     spec:
       containers:
-      - image: sameersbn/redis:4.0.9-1
+      - image: redis:4
         name: redis
         ports:
         - containerPort: 6379

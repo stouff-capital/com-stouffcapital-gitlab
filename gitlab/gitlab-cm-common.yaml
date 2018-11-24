@@ -10,7 +10,7 @@ data:
   TZ: "Europe/Berlin"
   GITLAB_TIMEZONE: "Bern"
   # GitLab
-  GITLAB_ROOT_EMAIL: "info@stouffcapital.com"
+  GITLAB_ROOT_EMAIL: "info@stouffcapital.tech"
   GITLAB_SSH_PORT: "30022"
   GITLAB_NOTIFY_ON_BROKEN_BUILDS: "true"
   GITLAB_NOTIFY_PUSHER: "false"
@@ -31,9 +31,9 @@ data:
   # Nginx settings
   #NGINX_MAX_UPLOAD_SIZE: "100m"
   # GitLab SMTP settings
-  GITLAB_EMAIL: "info@stouffcapital.com"
+  GITLAB_EMAIL: "info@stouffcapital.tech"
   GITLAB_EMAIL_DISPLAY_NAME: "GitLab | StouffCapital"
-  GITLAB_EMAIL_REPLY_TO: "info@stouffcapital.com"
+  GITLAB_EMAIL_REPLY_TO: "info@stouffcapital.tech"
   SMTP_ENABLED: "false"
   SMTP_DOMAIN: "example.com"
   SMTP_HOST: "smtp.example.com"
@@ -50,7 +50,7 @@ data:
   IMAP_STARTTLS: "false"
   # docker registry
   GITLAB_REGISTRY_ENABLED: "true"
-  GITLAB_REGISTRY_HOST: "registry.stouffcapital.com"
+  GITLAB_REGISTRY_HOST: "registry.stouffcapital.tech"
   GITLAB_REGISTRY_PORT: "443"
   GITLAB_REGISTRY_API_URL: "http://docker-registry:5000"
   GITLAB_REGISTRY_KEY_PATH: "/certs/tls.key"

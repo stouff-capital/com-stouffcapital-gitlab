@@ -48,7 +48,7 @@ spec:
           claimName: docker-registry-pv-claim
       - name: tls-cert-key
         secret:
-          secretName: rauth-tls-certificate
+          secretName: registry-auth-tls-certificate
       - name: config-registry
         configMap:
           name: docker-registry-cm
